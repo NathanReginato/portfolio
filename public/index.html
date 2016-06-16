@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Nathan Reginato | Developer</title>
+
+  <!-- Style Sheets -->
+
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One|Archivo+Narrow|Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+  <!-- My Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Angular -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js" charset="utf-8"></script>
+
+  <!-- My Scripts -->
+  <script src="app/router.js" charset="utf-8"></script>
+
+    <!-- Directives -->
+    <script src="app/cover.directive.js" charset="utf-8"></script>
+
+  <base href="/" />
+
+</head>
+<body>
+  <my-cover></my-cover>
+  <div ui-view></div>
+</body>
+</html>
