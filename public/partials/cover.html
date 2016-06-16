@@ -1,7 +1,20 @@
-<div ng-hide="vm.hide">
-  <span class="icon_class devicons devicons-{{icon}}" ng-repeat="icon in vm.iconsArray"></span>
-  <h1>Nathan Reginato</h1>
-  <h2>{FULL STACK WEB DEVELOPER}</h2>
-  <a class="ion-chevron-down" ng-click="vm.hide=!vm.hide"></a>
-  <span class="icon_class devicons devicons-{{icon}}" ng-repeat="icon in vm.iconsArray"></span>
+<div class="cover" ng-hide="vm.hide">
+  <div class="titles-container">
+
+    <div class="top-icons">
+      <span class="icon_class devicons devicons-{{icon}}" ng-repeat="icon in vm.iconsArray"></span>
+    </div>
+
+    <div>
+      <h1>Nathan Reginato</h1>
+      <h2>{FULL STACK WEB DEVELOPER}</h2>
+    </div>
+
+    <a href="" class="down-arrow ion-chevron-down" ng-click="vm.hide=!vm.hide"></a>
+
+    <div class="bottom-icons">
+      <span class="icon_class devicons devicons-{{icon}}" ng-repeat="icon in vm.iconsArray"></span>
+    </div>
+
+</div>
 </div>

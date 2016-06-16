@@ -9,3 +9,57 @@
   h2 font-family: 'Archivo Narrow', sans-serif;
   p font-family: 'Source Sans Pro', sans-serif;
 */
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #204C70;
+}
+
+h2 {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: #D8B4A0;
+}
+
+/*COVER*/
+
+.cover {
+  background-color:#EFF1F3;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  text-align: center;
+  overflow: hidden;
+}
+
+.titles-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cover h1 {
+  font-size: 100px;
+}
+
+.cover h2 {
+  font-size: 60px;
+}
+
+.icon_class {
+  color:#DBD3D8;
+  font-size: 100px;
+}
+
+.bottom-icons, .top-icons {
+  margin: 10px;
+}
+
+.down-arrow {
+  font-size: 50px;
+  color:#D77A61;
+}
+
+.down-arrow:hover {
+  color: #D8B4A0;
+}
