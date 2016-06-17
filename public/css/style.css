@@ -108,10 +108,13 @@ aside a:active {
 
 /*PROJECTS*/
 
+body {
+  background-color: #DBD3D8;
+}
+
 article {
   margin: 0 0 0 20vw;
   padding: 20px;
-  background-color: #DBD3D8;
 }
 
 .row {
@@ -146,6 +149,7 @@ article {
   border-radius: 5px;
   color: #EFF1F3;
   transition: background-color 0.5s;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .live-site:visited, .live-site:link {
@@ -156,7 +160,7 @@ article {
 
 .live-site:hover {
   background-color: #204C70;
-  color: #EFF1F3;
+  color: #DBD3D8;
   text-decoration: none;
 }
 
