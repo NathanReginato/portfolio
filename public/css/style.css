@@ -198,7 +198,7 @@ article {
 }
 
 .about-card p {
-  font-size: 150%;
+  font-size: 140%;
   padding: 10px;
 }
 
@@ -215,7 +215,7 @@ th {
 td {
   font-family: 'Source Sans Pro', sans-serif;
   color: #204C70;
-  font-size: 150%;
+  font-size: 140%;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
