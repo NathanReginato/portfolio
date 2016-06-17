@@ -13,11 +13,17 @@
 h1 {
   font-family: 'Julius Sans One', sans-serif;
   color: #204C70;
+  font-weight: bold;
 }
 
 h2 {
   font-family: 'Archivo Narrow', sans-serif;
   color: #D8B4A0;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #204C70;
 }
 
 /*COVER*/
@@ -80,16 +86,80 @@ aside {
 
 aside li {
   list-style: none;
-  font-size:5vw;
+  font-size:4vw;
 }
 
-aside a, aside a:link, aside a:hover, aside a:visited {
+aside a, aside a:link, aside a:visited {
   font-family: 'Archivo Narrow', sans-serif;
   color: #D8B4A0;
   text-decoration: none;
+  transition: color 0.5s;
 
+}
+
+aside a:hover {
+  color:#D77A61;
+  text-decoration: none;
 }
 
 aside a:active {
   color: #D77A61;
+}
+
+/*PROJECTS*/
+
+article {
+  margin: 0 0 0 20vw;
+  padding: 20px;
+  background-color: #DBD3D8;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+/*PANEL*/
+
+.panel {
+  padding: 20px;
+  background: #EFF1F3;
+}
+
+.panel h2 {
+  font-size: 55px
+}
+
+.panel .sub-header {
+  font-size: 30px;
+}
+
+.panel ul li {
+  color: #204C70;
+}
+
+.live-site {
+  display: flex;
+  justify-content: center;
+  padding: 8px 30%;
+  background-color: #D77A61;
+  border-radius: 5px;
+  color: #EFF1F3;
+  transition: background-color 0.5s;
+}
+
+.live-site:visited, .live-site:link {
+  background-color: #D77A61;
+  color: #EFF1F3;
+  text-decoration: none;
+}
+
+.live-site:hover {
+  background-color: #204C70;
+  color: #EFF1F3;
+  text-decoration: none;
+}
+
+.col-md-4 {
+  padding: .9375rem;
 }

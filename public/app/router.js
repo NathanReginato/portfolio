@@ -15,14 +15,9 @@
     $urlRouterProvider.otherwise("/");
 
     $stateProvider
-    .state('home', {
-      url: "/",
-      template: '<h1>Home</h1><a ui-sref="projects">click</a><div ui-view></div>'
-    })
     .state('projects', {
-      parent: 'home',
-      url: "projects",
-      template: "<h1>yayya</h1>"
+      url: "/",
+      templateUrl: 'partials/projects.html'
     })
   }
 })();
