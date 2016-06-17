@@ -1,13 +1,13 @@
 /*
-  Blue color: #204C70;
-  Tan color: #D8B4A0;
-  Cream color:#EFF1F3;
-  Grey color:#DBD3D8;
-  Orange color:#D77A61;
+Blue color: #204C70;
+Tan color: #D8B4A0;
+Cream color:#EFF1F3;
+Grey color:#DBD3D8;
+Orange color:#D77A61;
 
-  h1 font-family: 'Julius Sans One', sans-serif;
-  h2 font-family: 'Archivo Narrow', sans-serif;
-  p font-family: 'Source Sans Pro', sans-serif;
+h1 font-family: 'Julius Sans One', sans-serif;
+h2 font-family: 'Archivo Narrow', sans-serif;
+p font-family: 'Source Sans Pro', sans-serif;
 */
 
 h1 {
@@ -35,6 +35,7 @@ p {
   position: fixed;
   text-align: center;
   overflow: hidden;
+  z-index: 1000;  
 }
 
 .titles-container {
@@ -129,8 +130,12 @@ article {
   background: #EFF1F3;
 }
 
+.panel p, li{
+  font-size: 120%;
+}
+
 .panel h2 {
-  font-size: 55px
+  font-size: 55px;
 }
 
 .panel .sub-header {
@@ -165,5 +170,46 @@ article {
 }
 
 .col-md-4 {
+  padding: .9375rem;
+}
+
+/*ABOUT*/
+
+.avatar {
+  width: 100%;
+  border-radius: 50%;
+  border: 15px solid #D77A61;
+}
+
+.about-card {
+
+}
+
+.about-card h1 {
+  font-size: 600%;
+}
+
+.about-card p {
+  font-size: 150%;
+  padding: 10px;
+}
+
+.container {
+  background: #EFF1F3;
+}
+
+th {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: #D8B4A0;
+  font-size: 200%;
+}
+
+td {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #204C70;
+  font-size: 150%;
+}
+
+.col-md-6 {
   padding: .9375rem;
 }

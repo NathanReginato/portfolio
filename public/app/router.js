@@ -19,5 +19,9 @@
       url: "/",
       templateUrl: 'partials/projects.html'
     })
+    .state('about', {
+      url: "/about",
+      templateUrl: 'partials/about.html'
+    })
   }
 })();
