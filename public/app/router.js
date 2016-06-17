@@ -16,11 +16,11 @@
 
     $stateProvider
     .state('projects', {
-      url: "/",
+      url: "/a",
       templateUrl: 'partials/projects.html'
     })
     .state('about', {
-      url: "/about",
+      url: "/",
       templateUrl: 'partials/about.html'
     })
   }

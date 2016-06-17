@@ -35,7 +35,7 @@ p {
   position: fixed;
   text-align: center;
   overflow: hidden;
-  z-index: 1000;  
+  z-index: 1000;
 }
 
 .titles-container {
@@ -107,6 +107,14 @@ aside a:active {
   color: #D77A61;
 }
 
+aside h1 {
+  color:#D77A61;
+  position: fixed;
+  top: 20px;
+  text-align: center;
+  width: 20vw;
+  font-size: 5vw;
+}
 /*PROJECTS*/
 
 body {
@@ -208,6 +216,10 @@ td {
   font-family: 'Source Sans Pro', sans-serif;
   color: #204C70;
   font-size: 150%;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #DBD3D8;
 }
 
 .col-md-6 {
