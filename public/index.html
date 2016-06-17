@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
   <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One|Archivo+Narrow|Source+Sans+Pro' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <!-- My Styles -->
   <link rel="stylesheet" href="css/style.css">
@@ -33,7 +32,27 @@
 
 </head>
 <body>
-  <my-cover></my-cover>
-  <div ui-view></div>
+  <!-- <my-cover></my-cover> -->
+
+  <header>
+
+  </header>
+  <main>
+    <aside>
+      <nav>
+        <ul>
+          <li><a href="" ui-sref="projects">Projects</a></li>
+          <li><a href="" ui-sref="about">About</a></li>
+          <li><a href="" ui-sref="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <article>
+      <div ui-view></div>
+    </article>
+  </main>
+  <footer>
+
+  </footer>
 </body>
 </html>
