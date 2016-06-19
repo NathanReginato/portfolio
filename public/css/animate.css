@@ -1,12 +1,24 @@
-.animate-show {
+.animate-show-menu {
   opacity: 1;
 }
 
-.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
+.animate-show-menu.ng-hide-add, .animate-show-menu.ng-hide-remove {
   transition: all ease 0.5s;
 }
 
-.animate-show.ng-hide {
+.animate-show-menu.ng-hide {
   opacity: .5;
   transform: translateY(-200px);
+}
+
+.animate-show-cover {
+  opacity: 1;
+}
+
+.animate-show-cover.ng-hide-add, .animate-show-cover.ng-hide-remove {
+  transition: all ease 1s;
+}
+
+.animate-show-cover.ng-hide {
+  transform: translateY(-100vh);
 }

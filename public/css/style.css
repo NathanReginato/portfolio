@@ -36,6 +36,7 @@ p {
   text-align: center;
   overflow: hidden;
   z-index: 1000;
+  top: 0;
 }
 
 .titles-container {
@@ -76,6 +77,7 @@ p {
 header {
   background: #204C70;
   display: none;
+  position: fixed;
 }
 
 /*ASIDE*/
@@ -265,8 +267,19 @@ td {
     font-size: 35px;
   }
 
+  .container {
+     max-width: 100%;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
   header {
-    display: block;;
+    display: block;
     position: fixed;
     width: 100vw;
     height: 50px;

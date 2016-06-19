@@ -23,5 +23,9 @@
       url: "/about",
       templateUrl: 'partials/about.html'
     })
+    .state('contact', {
+      url: "/contact",
+      templateUrl: 'partials/contact.html'
+    })
   }
 })();
