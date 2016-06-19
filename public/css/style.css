@@ -50,7 +50,7 @@ p {
 }
 
 .cover h2 {
-  font-size: 60px;
+  font-size: 10vw;
 }
 
 .icon_class {
@@ -69,6 +69,13 @@ p {
 
 .down-arrow:hover {
   color: #D8B4A0;
+}
+
+/*HEADER*/
+
+header {
+  background: #204C70;
+  display: none;
 }
 
 /*ASIDE*/
@@ -143,7 +150,7 @@ article {
 }
 
 .panel h2 {
-  font-size: 55px;
+  font-size: 4vw;
 }
 
 .panel .sub-header {
@@ -177,7 +184,7 @@ article {
   text-decoration: none;
 }
 
-.col-md-4 {
+.col-lg-4 {
   padding: .9375rem;
 }
 
@@ -187,10 +194,6 @@ article {
   width: 100%;
   border-radius: 50%;
   border: 15px solid #D77A61;
-}
-
-.about-card {
-
 }
 
 .about-card h1 {
@@ -224,4 +227,133 @@ td {
 
 .col-md-6 {
   padding: .9375rem;
+}
+
+@media (max-width: 940px) {
+  .cover h1 {
+    font-size: 80px;
+  }
+
+  .cover h2 {
+    font-size: 40px;
+  }
+
+  .panel h2 {
+    font-size: 3vw;
+  }
+
+  .panel .sub-header {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .cover h1 {
+    font-size: 60px;
+  }
+
+  .cover h2 {
+    font-size: 20px;
+  }
+
+  .panel h2 {
+    font-size: 55px;
+  }
+
+  .panel .sub-header {
+    font-size: 35px;
+  }
+
+  header {
+    display: block;;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    top: 0;
+    z-index: 10;
+  }
+
+  header .initials {
+    padding: 0;
+    margin: 4px 0 0 0;
+    text-align: center;
+    color: #D77A61;
+  }
+
+  aside {
+    display: none;
+  }
+
+  article {
+    margin: 50px 0 0 0;
+  }
+
+  nav {
+    background: #204C70;
+    padding: 5px;
+    margin: 0;
+  }
+
+  nav ul {
+    padding: 10px;
+    margin: 0;
+  }
+
+  nav li {
+    list-style: none;
+  }
+
+  nav a, nav a:link, nav a:visited {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #D8B4A0;
+    text-decoration: none;
+    transition: color 0.5s;
+    font-size: 30px;
+  }
+
+  nav a:hover {
+    color:#D77A61;
+    text-decoration: none;
+  }
+
+  nav a:active {
+    color: #D77A61;
+  }
+
+  .berger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+  }
+
+  .berger ul {
+    height: 46px;
+    width: 46px;
+    margin: 0;
+    padding: 8px;
+  }
+
+  .berger li {
+    background: #D8B4A0;
+    height: 5px;
+    width: 33px;
+    list-style: none;
+    padding: 0;
+    margin: 4px 0 0 0;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 580px) {
+  .cover h1 {
+    font-size: 40px;
+  }
+
+  .icon_class {
+    font-size: 60px;
+  }
 }
