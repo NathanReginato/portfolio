@@ -27,29 +27,14 @@
 
     <!-- Directives -->
     <script src="app/cover.directive.js" charset="utf-8"></script>
+    <script src="app/header.directive.js" charset="utf-8"></script>
 
   <base href="/" />
 
 </head>
 <body>
   <!-- <my-cover></my-cover> -->
-  <header>
-    <h1 class="initials">NR</h1>
-    <div class="berger">
-      <ul>
-        <li class="bar"></li>
-        <li class="bar"></li>
-        <li class="bar"></li>
-      </ul>
-    </div>
-    <nav ng-toggle="false">
-      <ul>
-        <li><a href="" ui-sref="projects">Projects</a></li>
-        <li><a href="" ui-sref="about">About</a></li>
-        <li><a href="" ui-sref="contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <my-header></my-header>
   <main>
     <aside>
       <h1 class="initials">NR</h1>

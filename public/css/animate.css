@@ -3,9 +3,10 @@
 }
 
 .animate-show.ng-hide-add, .animate-show.ng-hide-remove {
-  transition: all linear 0.5s;
+  transition: all ease 0.5s;
 }
 
 .animate-show.ng-hide {
-  opacity: 0;
+  opacity: .5;
+  transform: translateY(-200px);
 }
