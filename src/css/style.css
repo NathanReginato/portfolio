@@ -187,7 +187,6 @@ article {
 }
 
 .col-lg-4 {
-  padding: 15px;
   padding: .9375rem;
 }
 
@@ -229,7 +228,6 @@ td {
 }
 
 .col-lg-6 {
-  padding: 15px;
   padding: .9375rem;
 }
 
@@ -277,8 +275,6 @@ td {
     margin: 0;
     padding: 0;
   }
-
-
 
   header {
     display: block;

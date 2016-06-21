@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const babel = require("gulp-babel");
 const concat = require("gulp-concat");
 const autoprefixer = require('gulp-autoprefixer');
+const browserSync = require('browser-sync').create();
 
 let javascripts = [
   'src/app/router.js',
@@ -9,10 +10,10 @@ let javascripts = [
   'src/app/header.directive.js'
 ]
 
-let css = [
-  'src/css/style.css',
-  'src/css/animate.css'
-]
+gulp.task('watch', function(){
+  gulp.watch('src/app/*.js', ['javascript']);
+  gulp.watch('src/css/*.css', ['css']);
+})
 
 gulp.task("javascript", function () {
   return gulp.src(javascripts)
@@ -22,9 +23,9 @@ gulp.task("javascript", function () {
 });
 
 gulp.task('css', function () {
-	return gulp.src(css)
+	return gulp.src('./src/**/*.css')
 		.pipe(autoprefixer({
-			browsers: ['last 2 versions'],
+			browsers: ['last 20 versions'],
 			cascade: false
 		}))
     .pipe(concat("style.css"))

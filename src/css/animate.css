@@ -1,6 +1,5 @@
 .animate-show-menu {
   opacity: 1;
-  filter: alpha(opacity=100);
 }
 
 .animate-show-menu.ng-hide-add, .animate-show-menu.ng-hide-remove {
@@ -9,13 +8,11 @@
 
 .animate-show-menu.ng-hide {
   opacity: .5;
-  filter: alpha(opacity=50);
   transform: translateY(-200px);
 }
 
 .animate-show-cover {
   opacity: 1;
-  filter: alpha(opacity=100);
 }
 
 .animate-show-cover.ng-hide-add, .animate-show-cover.ng-hide-remove {
