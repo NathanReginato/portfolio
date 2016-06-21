@@ -60,7 +60,7 @@ p {
 /*COVER*/
 
 .cover {
-  background-color:#EFF1F3;
+  background:#EFF1F3;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -124,7 +124,7 @@ header {
 
 aside {
   position: fixed;
-  background-color: #204C70;
+  background: #204C70;
   text-align: right;
   height: 100vh;
   width: 20vw;
@@ -178,7 +178,7 @@ aside h1 {
 /*PROJECTS*/
 
 body {
-  background-color: #DBD3D8;
+  background: #DBD3D8;
 }
 
 article {
@@ -224,23 +224,23 @@ article {
   -ms-flex-pack: center;
   justify-content: center;
   padding: 8px 30%;
-  background-color: #D77A61;
+  background: #D77A61;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   color: #EFF1F3;
-  -webkit-transition: background-color 0.5s;
-  transition: background-color 0.5s;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .live-site:visited, .live-site:link {
-  background-color: #D77A61;
+  background: #D77A61;
   color: #EFF1F3;
   text-decoration: none;
 }
 
 .live-site:hover {
-  background-color: #204C70;
+  background: #204C70;
   color: #DBD3D8;
   text-decoration: none;
 }
@@ -260,6 +260,10 @@ article {
 
 .about-card h1 {
   font-size: 600%;
+}
+
+.about-card h2 {
+  padding: 0 0 0 10px;
 }
 
 .about-card p {
@@ -284,12 +288,33 @@ td {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: #DBD3D8;
+  background: #DBD3D8;
 }
 
 .col-lg-6 {
   padding: .9375rem;
 }
+
+/*CONTACT*/
+
+.contact-card h1 {
+  font-size: 85px;
+}
+
+.contact-card table {
+  background: #DBD3D8;
+}
+
+.contact-card .table-striped tbody tr:nth-of-type(odd) {
+  background: #EFF1F3;
+}
+
+
+/*Blue color: #204C70;
+Tan color: #D8B4A0;
+Cream color:#EFF1F3;
+Grey color:#DBD3D8;
+Orange color:#D77A61;*/
 
 @media (max-width: 940px) {
   .cover h1 {
@@ -426,7 +451,27 @@ td {
     font-size: 40px;
   }
 
+  .about-card h1 {
+    font-size: 70px;
+  }
+
+  .about-card p {
+    font-size: 110%;
+  }
+
+  .about-card td {
+    font-size: 110%
+  }
+
   .icon_class {
     font-size: 60px;
+  }
+
+  .contact-card h1 {
+    font-size: 50px;
+  }
+
+  .contact-card a, .contact-card td {
+    font-size: 100%;
   }
 }

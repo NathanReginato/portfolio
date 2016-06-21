@@ -3,7 +3,6 @@ const babel = require("gulp-babel");
 const concat = require("gulp-concat");
 const autoprefixer = require('gulp-autoprefixer');
 const uglify = require('gulp-uglify');
-const browserSync = require('browser-sync').create();
 
 let javascripts = [
   'src/app/router.js',
@@ -30,6 +29,6 @@ gulp.task('css', function () {
 			browsers: ['last 20 versions'],
 			cascade: false
 		}))
-    .pipe(concat("style.min.css"))
+    .pipe(concat("style.css"))
 		.pipe(gulp.dest('public'));
 });
