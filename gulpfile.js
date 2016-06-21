@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const babel = require("gulp-babel");
 const concat = require("gulp-concat");
 const autoprefixer = require('gulp-autoprefixer');
+const uglify = require('gulp-uglify');
 const browserSync = require('browser-sync').create();
 
 let javascripts = [
@@ -18,7 +19,8 @@ gulp.task('watch', function(){
 gulp.task("javascript", function () {
   return gulp.src(javascripts)
     .pipe(babel())
-    .pipe(concat("app.js"))
+    .pipe(uglify())
+    .pipe(concat("app.min.js"))
     .pipe(gulp.dest("public"));
 });
 
@@ -28,6 +30,6 @@ gulp.task('css', function () {
 			browsers: ['last 20 versions'],
 			cascade: false
 		}))
-    .pipe(concat("style.css"))
+    .pipe(concat("style.min.css"))
 		.pipe(gulp.dest('public'));
 });

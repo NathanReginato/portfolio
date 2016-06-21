@@ -25,7 +25,7 @@
         icons.unshift(icons.pop())
         $scope.$apply()
         vm.shuffle()
-      }, 5000)
+      }, 2000)
     }
     vm.shuffle()
   }
