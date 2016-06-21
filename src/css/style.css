@@ -382,6 +382,14 @@ Orange color:#D77A61;*/
     margin: 4px 0 0 0;
     border-radius: 5px;
   }
+
+  .contact-card h1 {
+    font-size: 50px;
+  }
+
+  .contact-card a, .contact-card td {
+    font-size: 100%;
+  }
 }
 
 @media (max-width: 580px) {
@@ -405,11 +413,4 @@ Orange color:#D77A61;*/
     font-size: 60px;
   }
 
-  .contact-card h1 {
-    font-size: 50px;
-  }
-
-  .contact-card a, .contact-card td {
-    font-size: 100%;
-  }
 }
