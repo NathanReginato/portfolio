@@ -9,9 +9,9 @@
   </div>
   <nav ng-hide="vm.menu" class="animate-show-menu">
     <ul>
-      <li><a href="" ui-sref="projects">Projects</a></li>
-      <li><a href="" ui-sref="about">About</a></li>
-      <li><a href="" ui-sref="contact">Contact</a></li>
+      <li><a href="" ui-sref="projects" ng-click="vm.menu = !vm.menu">Projects</a></li>
+      <li><a href="" ui-sref="about" ng-click="vm.menu = !vm.menu">About</a></li>
+      <li><a href="" ui-sref="contact" ng-click="vm.menu = !vm.menu">Contact</a></li>
     </ul>
   </nav>
 </header>

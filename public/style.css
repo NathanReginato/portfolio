@@ -153,8 +153,8 @@ aside a, aside a:link, aside a:visited {
   font-family: 'Archivo Narrow', sans-serif;
   color: #D8B4A0;
   text-decoration: none;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 
 }
 
@@ -228,8 +228,8 @@ article {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   color: #EFF1F3;
-  -webkit-transition: background 0.5s;
-  transition: background 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -251,12 +251,75 @@ article {
 
 /*ABOUT*/
 
+.container, .row {
+  padding: .9375rem;
+}
+
 .avatar {
+  width: 94%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 3%;
+}
+
+.avatar-shadow {
+  background: #D77A61;
   width: 100%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: 15px solid #D77A61;
 }
+
+.picture-card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.picture-card a {
+  margin: 20px 0 0 0;
+  padding: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  background: #D77A61;
+  color:#EFF1F3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 140%;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.picture-card a:visited, .picture-card a:link {
+  background: #D77A61;
+  color: #EFF1F3;
+  text-decoration: none;
+}
+
+.picture-card a:hover {
+  background: #204C70;
+  color: #DBD3D8;
+  text-decoration: none;
+}
+
 
 .about-card h1 {
   font-size: 600%;
@@ -270,6 +333,7 @@ article {
   font-size: 140%;
   padding: 10px;
 }
+
 
 .container {
   background: #EFF1F3;
@@ -404,8 +468,8 @@ Orange color:#D77A61;*/
     font-family: 'Archivo Narrow', sans-serif;
     color: #D8B4A0;
     text-decoration: none;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
     font-size: 30px;
   }
 
