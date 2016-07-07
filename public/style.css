@@ -183,7 +183,7 @@ body {
 
 article {
   margin: 0 0 0 20vw;
-  padding: 20px;
+  padding: 0px;
 }
 
 .row {
@@ -203,7 +203,7 @@ article {
 }
 
 .panel h2 {
-  font-size: 4vw;
+  font-size: 3.6vw;
 }
 
 .panel .sub-header {
@@ -409,7 +409,7 @@ Orange color:#D77A61;*/
   }
 
   .panel h2 {
-    font-size: 55px;
+    font-size: 40px;
   }
 
   .panel .sub-header {
