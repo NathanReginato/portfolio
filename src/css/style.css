@@ -138,7 +138,10 @@ article {
 .row {
   width: 100%;
   margin: 0;
+  padding: 0;
 }
+
+
 
 /*PANEL*/
 
@@ -166,7 +169,7 @@ article {
 .live-site {
   display: flex;
   justify-content: center;
-  padding: 8px 30%;
+  padding: 8px 10%;
   background: #D77A61;
   border-radius: 5px;
   color: #EFF1F3;
@@ -280,6 +283,9 @@ td {
   padding: .9375rem;
 }
 
+.row-links {
+  padding: 3px;
+}
 /*CONTACT*/
 
 .contact-card h1 {
@@ -294,12 +300,6 @@ td {
   background: #EFF1F3;
 }
 
-
-/*Blue color: #204C70;
-Tan color: #D8B4A0;
-Cream color:#EFF1F3;
-Grey color:#DBD3D8;
-Orange color:#D77A61;*/
 
 @media (max-width: 940px) {
   .cover h1 {
